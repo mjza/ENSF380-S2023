@@ -6,7 +6,7 @@
  */
 
 /*
- * Welcome is a simple example program for chapter02 / lecture 01 
+ * Welcome is a simple example program for lecture 01 
  */
 
 public class Welcome {
