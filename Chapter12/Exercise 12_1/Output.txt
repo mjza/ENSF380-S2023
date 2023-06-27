@@ -1,0 +1,6 @@
+Integer concatenateArray(1): 1#1#1
+String concatenateArray(): Hi#Hi#Hi#Hi
+Default concatenateArray(2): Hello, world#Hello, world
+Integer cropArray(3, 2): 1#1
+String cropArray(0, 4): Fail
+Default concatenateArray(0, 0): Match
