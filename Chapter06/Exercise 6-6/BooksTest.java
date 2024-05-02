@@ -1,4 +1,4 @@
-package edu.ucalgary.ensf409;
+package edu.ucalgary.ensf380;
 
 import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.Test;
