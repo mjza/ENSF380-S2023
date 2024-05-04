@@ -1,4 +1,4 @@
-package edu.ucalgary.ensf409;
+package edu.ucalgary.ensf380;
 
 /*
 Copyright Ann Barcomb and Emily Marasco, 2021-2022
