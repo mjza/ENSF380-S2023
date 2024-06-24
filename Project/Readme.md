@@ -7,20 +7,20 @@ The mayor of the city X has decided to update the screens on their subway trains
 ![Old Screen](./Media/Pic02.jpeg)
 
  After seeing the screens in the stations of the city Calgary, he wants a similar system to be implemented
- . Your task is to create a Java17 desktop application that displays information on the screens inside the trains. Something similar to the following figure but with some improvements:
+ . Your task is to create a Java21 desktop application that displays information on the screens inside the trains. Something similar to the following figure but with some improvements:
 
  ![Future Screen](./Media/Pic04.jpeg)
 
- The city X has three subway lines (Red, Green, and Blue) with approximately 120 stations. A list of the stations has been provided by the city hall in the form of a CSV file (i.e., [Map](https://github.com/mjza/ENSF380-SUMMER2023/tree/main/Project/Map/Map.csv)). 
+ The city X has three subway lines (Red, Green, and Blue) with approximately 120 stations. A list of the stations has been provided by the city hall in the form of a CSV file (i.e., [Map](https://github.com/mjza/ENSF380-SUMMER2024/tree/main/Project/Map/Map.csv)). 
 
-A controlling system reports the position and direction of the 12 trains every 15 seconds. Each line has four trains that travel continuously on their respective line. To access the data of the controlling system, a simulator is provided in the form of a jar file. The simulator places a file in the form of `Train_<Timestamp>.CSV` in any output folder specified via command line. To run the simulator and see the generated outputs, please follow the instructions provided in the simulator's [readme file](https://github.com/mjza/ENSF380-SUMMER2023/tree/main/Project/Simulator/Readme.md).
+A controlling system reports the position and direction of the 12 trains every 15 seconds. Each line has four trains that travel continuously on their respective line. To access the data of the controlling system, a simulator is provided in the form of a jar file. The simulator places a file in the form of `Train_<Timestamp>.CSV` in any output folder specified via command line. To run the simulator and see the generated outputs, please follow the instructions provided in the simulator's [readme file](https://github.com/mjza/ENSF380-SUMMER2024/tree/main/Project/Simulator/Readme.md).
 
 Three sample Java applications have been developed to run the jar file. You can fork the repository provided at [https://github.com/mjza/SubwayScreen](https://github.com/mjza/SubwayScreen) and continue your development on your forked repo. **Make your repository hidden**. Please note that the amount of your contribution is measured by the amount of commits/contributes that you make in your repository. You may receive different mark than your group mates if you haven't had enough contribution. 
 
 Your application must have the following functionalities:
 
 1. The main screen is devided to four sections.
-2. The largest section will display advertisements. Please create a database and design tables to moderate text and media of the advertisements that the city hall absorbs and displays on the screen. The media files can be of types PDF, MPG, JPEG, BMP. The advertisements must be changed continuously. Each ad must be shown for 10 seconds. Every 10 seconds, display the big map for 5 seconds in the advertisement frame. The map must show the position of the trains including the current train. I made several pictures in the [Map folder](https://github.com/mjza/ENSF380-SUMMER2023/tree/main/Project/Map).
+2. The largest section will display advertisements. Please create a database and design tables to moderate text and media of the advertisements that the city hall absorbs and displays on the screen. The media files can be of types PDF, MPG, JPEG, BMP. The advertisements must be changed continuously. Each ad must be shown for 10 seconds. Every 10 seconds, display the big map for 5 seconds in the advertisement frame. The map must show the position of the trains including the current train. I made several pictures in the [Map folder](https://github.com/mjza/ENSF380-SUMMER2024/tree/main/Project/Map).
 
 ![Map](./Map/Trains.png)
 
@@ -32,7 +32,7 @@ Your application must have the following functionalities:
 
 ![Old Screen](./Media/Pic02.jpeg)
 
-4. You application must annonce the next station and when passengers can change the lines. It must hint them possible line(s). You can record your own voice or use some text to speech services or library. For example, "Next stop: Mill Creek Station, you can change your train to line blue", "Next stop:  Hilltop Station". We have provided the list of stations in a [CSV file](https://github.com/mjza/ENSF380-SUMMER2023/blob/main/Project/Map/Map.csv). Please note the column H, provided the common stations between lines by their code.   
+4. You application must annonce the next station and when passengers can change the lines. It must hint them possible line(s). You can record your own voice or use some text to speech services or library. For example, "Next stop: Mill Creek Station, you can change your train to line blue", "Next stop:  Hilltop Station". We have provided the list of stations in a [CSV file](https://github.com/mjza/ENSF380-SUMMER2024/blob/main/Project/Map/Map.csv). Please note the column H, provided the common stations between lines by their code.   
 
 Note that the layout of the screens does not need to be exactly like the provided figures, but it should have similar functionalities.
 
